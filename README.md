@@ -6,6 +6,7 @@
 | Name | Role |
 |---|---|
 | Peenaz Khan | Builder & Product Lead |
+| Shourya Solipuram | Team Member |
 
 ## What it does
 Aura is a **Creative Storyteller AI agent** built for the NYC Build With AI Hackathon.
