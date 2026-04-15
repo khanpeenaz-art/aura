@@ -1,12 +1,13 @@
 # Aura — AI Presence Layer
 
-> Speak your ideas. Aura turns them into polished LinkedIn posts, video scripts, and AI avatar videos — published to social media automatically.
+> **Your Ideas. Your Avatar. Polished Social Presence on Autopilot.**
+>
+> Aura is an autonomous creative storyteller and video generation engine. It transforms raw thoughts into fully-realized multimodal content—including optimized LinkedIn posts, engaging hooks, and professional AI avatar videos—ready for instant distribution.
 
 ## Team Members
 | Name | Role |
 |---|---|
 | Peenaz Khan | Builder & Product Lead |
-| Shourya Solipuram | Team Member |
 
 ## What it does
 Aura is a **Creative Storyteller AI agent** built for the NYC Build With AI Hackathon.
