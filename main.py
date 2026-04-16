@@ -162,6 +162,13 @@ async def get_avatars():
             raise HTTPException(status_code=502, detail=f"HeyGen error: {data.get('error')}")
         avatars = (data.get("data") or {}).get("avatars") or []
         
+        # Filter out Shourya
+        avatars = [
+            a for a in avatars 
+            if "shourya" not in str(a.get("avatar_name", "")).lower() 
+            and "solipuram" not in str(a.get("avatar_name", "")).lower()
+        ]
+        
         env_avatars = [
             {"avatar_id": HEYGEN_AVATAR_ID.strip(), "avatar_name": "Env Avatar 1"},
             {"avatar_id": HEYGEN_AVATAR_ID_2.strip(), "avatar_name": "Env Avatar 2"}
